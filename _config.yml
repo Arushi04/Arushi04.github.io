@@ -12,7 +12,9 @@ author: Arushi Sharma
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "aboutme"  #summary pitch, education and hobbies
+  Projects : "projects"
+  Work Experience : "work-experience"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -22,7 +24,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/passport.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -43,7 +45,7 @@ social-network-links:
   github: https://github.com/Arushi04
   twitter: https://twitter.com/arushi04_
   linkedin: https://www.linkedin.com/in/arushi04/
-  rss: true
+  #rss: true
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -69,7 +71,7 @@ share-links-active:
   twitter: true
   github: true
   linkedin: true
-  vk: false
+  #vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
