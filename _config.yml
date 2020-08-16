@@ -12,13 +12,14 @@ author: Arushi Sharma
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"  #summary pitch, education and hobbies
+  #About Me: "aboutme"  #summary pitch, education and hobbies
   Projects : "projects"
   Work Experience : "work-experience"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Resume | CV: "resume/ArushiSharma.pdf"
+  #Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
+  About me: "https://arushi04.github.io/"
 
 # --- Logo --- #
 
@@ -42,9 +43,9 @@ round-avatar: true
 social-network-links:
   email: "aarushie2004@gmail.com"
   #facebook: deanattali
-  github: https://github.com/Arushi04
-  twitter: https://twitter.com/arushi04_
-  linkedin: https://www.linkedin.com/in/arushi04/
+  github: Arushi04
+  twitter: arushi04_
+  linkedin: arushi04/
   #rss: true
 #  reddit: yourname
 #  linkedin: daattali
