@@ -6,9 +6,9 @@ subtitle: Now you can know me better!
 
 My name is Arushi Sharma. I am a pursuing Masters in Data Science from Northeastern University, Boston. <br/>
 
-I have worked in the software industry for 6 years for IBM, Accenture and Bridgei2i Analytics Solutions that helped me gain a broad perspective in different domains (Financial, Telecom, Insurance and product-based). <br/  
+I have worked in the software industry for 6 years for IBM, Accenture and Bridgei2i Analytics Solutions that helped me gain a broad perspective in different domains (Financial, Telecom, Insurance and product-based). <br/>  
 
-I have majorly worked in building data pipelines, creating cloud infrastructure, deployment machine learning models and automation. My current projects are in Machine Learning, Computer vision and NLP. <br/
+I have majorly worked in building data pipelines, creating cloud infrastructure, deployment machine learning models and automation. My current projects are in Machine Learning, Computer vision and NLP. <br/>
 
 In my leisure time, I love to read (anything interesting, futuristic or inspirational) and go on hikes. I also love to play badminton and chess.  
    
