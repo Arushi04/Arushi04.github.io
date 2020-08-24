@@ -4,7 +4,7 @@ title: About me
 subtitle: Now you can know me better!
 ---
 
-My name is Arushi Sharma. I am a pursuing Masters in Data Science from Northeastern University, Boston. \ 
+My name is Arushi Sharma. I am a pursuing Masters in Data Science from Northeastern University, Boston. <br/>
 
 I have worked in the software industry for 6 years for IBM, Accenture and Bridgei2i Analytics Solutions \ 
 
