@@ -12,7 +12,7 @@ author: Arushi Sharma
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"  #summary pitch, education and hobbies
+  #About Me: "aboutme"  #summary pitch, education and hobbies
   Projects : "projects"
   Work Experience : "work-experience"
   Resume | CV: "resume/ArushiSharma.pdf"
