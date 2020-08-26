@@ -3,14 +3,5 @@ layout: page
 title: Projects
 ---
 
-<html>
-<head>
-</head>
-<body>
-<p>
-<img src="images/covid.png" alt="COVID-19">
-<a href="url">Prediction of Fatality in COVID-19 Patients</a>
-</p>
-
-</body>
-</html> 
+![COVID-19 Analysis]: assets/img/coronavirus.jpg "COVID-19"
+[Prediction of Fatality in COVID-19 Patients](https://github.com/Arushi04/COVID-19-Analysis)
