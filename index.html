@@ -1,45 +1,40 @@
 ---
-layout: home
-title: About Me
+layout: default
+robots: noindex
 ---
 
+<!--<div class="main-post-list">-->
 
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+  <ul class="timeline">
+    
+    {% for project in site.data.projects %}
 
-<p>
-	My name is Arushi Sharma. I am pursuing Masters in Data Science from Northeastern University, Boston.
-	I am currently working as a Research Assistant at NEU doing research to figure out whether copy-cats/imitators of designers encourage or discourage innovation.
-	<br/>
-	My courses at Northeastern includes Mathematics(Linear ALgebra, Probability), Statistics, Data Mining & Warehousing, Information Retrieval and Machine Learning. 
-	<br/>
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
 
-	I have worked in the software industry for 6 years for IBM, Accenture and Bridgei2i Analytics Solutions in multiple domains (Financial, Telecom, Insurance and technology).
-	And have majorly worked in python building data pipelines, creating and automating cloud infrastructure and deploying machine learning models.
-	<br/>
-	My interest area is Deep Learning, trying to explore both text and images.
-	<br/>
-	In my leisure time, I love to read (anything interesting, futuristic or inspirational) and go on hikes. I also love to play badminton and chess.  
-</p>
-
-<p>
-<h3>Skill-Set: </h3> <br/>
-<b>Programming :</b>  Python, Shell, SQL, R, Terraform, Numpy, Pandas, Scikit-Learn <br/>
-<b> Technologies :</b> Machine Learning, Hadoop Ecosystem, Spark, Kafka, Hive, Cloud (AWS), Docker, Elastic Search, PyTorch <br/>
-<b>Machine Learning :</b> Regression (Linear, Logistic), Regularization, Decision Trees, Boosting, Bagging (Random Forest), SVM, Naive Bayes, CNN, RNN, NLP <br/>
-
-</p>
-
-<p>
-<h3>Education: </h3><br/>
-<b>MS (Data Science);</b> Northeastern University, Boston, MA August, 2021 <br/>
-	<i>Relevant Courses:</i>Algorithms, Linear Algebra and Probability, Information Retrieval, Machine Learning, Data Management & Warehousing <br/>
-<b>B.Tech (Computer Science);</b> Rajasthan Technical University, India, Honours, 2012 <br/>
-	<i>Relevant Courses:</i> Data mining and Warehousing, Distributed Systems, Statistics and Probability Theory <br/>
-</p>
-</body>
-</html> 
+<!--</div>-->
 

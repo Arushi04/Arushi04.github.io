@@ -1,0 +1,38 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Prediction of Fatality in COVID-19 Patients
+  gh_user: Arushi04
+  repo: COVID-19-Analysis
+  img: https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png
+  desc: This project covers exploratory and confirmatory data analysis to explore relationships between different underlying factors related to the pandemic. I have build a machine learning model that predicts the fatality of the patients and have also analyzed and predicted the progress of COVID-19 in USA using SIR model. The aim of this prediction is to facilitate the healthcare establishments to prioritize patients for specialized medical attention, at an early stage.
+
+- name: Image Classification
+  gh_user: Arushi04
+  repo: ImageClassification
+  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
+  desc: This image classification has been done on CIFAR10 dataset using Convolutional Neural Networks.
+
+- name: Document ranking using vector-space models and language models
+  gh_user: Arushi04
+  repo: Information-Retrieval
+  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
+  desc: This project focuses on documents and query matching using vector space models, language models and machine learning models. Stores the document on elastic search and retrieves only the topmost ranking documents based on the query. I have also written the script to evaluate the performace for document retrieval for each query.
+
+- name: Classification of Names using character level LSTM model
+  gh_user: Arushi04
+  repo: character-level-RNN
+  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
+  desc: The project trains a LSTM and GRU model to classify names based on the country.
+
+- name: Terraform Automation Scripts for AWS
+  gh_user: Arushi04
+  repo: Devops_Terraform
+  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+  desc: Some scripts that I used with AWS infrastructure Automation. Running the scripts will bring up AWS services with the given configuration.
+
+- name: Spam Classification of Emails
+  gh_user: Arushi04
+  repo: Spam-Classification
+  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
+  desc: The project classifies a spam email from ham using machine learning models.
