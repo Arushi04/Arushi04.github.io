@@ -1,37 +1,38 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
 - name: Prediction of Fatality in COVID-19 Patients
   gh_user: Arushi04
   repo: COVID-19-Analysis
   img: https://www.vmcdn.ca/f/files/kitchenertoday/images/health-and-fitness/covid-19-village-media.jpg
   #img: https://www.lendersonlinetraining.com/wp-content/uploads/2020/03/COVID-19-iStock-1213427702-small.jpg
-  desc: This project covers exploratory and confirmatory data analysis to explore relationships between different underlying factors related to the pandemic. I have build a machine learning model that predicts the fatality of the patients and have also analyzed and predicted the progress of COVID-19 in USA using SIR model. The aim of this prediction is to facilitate the healthcare establishments to prioritize patients for specialized medical attention, at an early stage.
+  desc: This project analyses the spread of COVID-19 in USA and predicts the fatality of the COVID patients. It aims to facilitate the healthcare establishments in prioritizing patients for specialized medical attention, at an early stage.
+
+- name: Document ranking using vector-space models and language models
+  gh_user: Arushi04
+  repo: Information-Retrieval
+  img: https://cdn0.iconfinder.com/data/icons/education-blue-shine-style/128/education-fill_-_Blue_Glitter-30-512.png
+  desc: This project focuses on documents and query matching using vector space models, language models and machine learning models. It stores the document on elastic search and retrieves only the topmost ranking documents based on user query. 
+
+- name: Name Classification using character level LSTM model
+  gh_user: Arushi04
+  repo: character-level-RNN
+  img: https://www.wolfram.com/language/11/multilingual-functionality/assets.en/word-cloud-of-most-common-letters-by-script/smallthumb_12.png
+  desc: This project trains a few thousand names from 18 languages of origin and predicts which language a name is based on the spelling. It uses a character-level LSTM model to predict the next character. 
 
 - name: Image Classification
   gh_user: Arushi04
   repo: ImageClassification
   #img: https://www.kdnuggets.com/wp-content/uploads/image-classification-cat-1.jpg
   img: https://cdn-images-1.medium.com/max/2000/1*biZq-ihFzq1I6Ssjz7UtdA.jpeg
-  desc: This image classification has been done on CIFAR10 dataset using Convolutional Neural Networks.
-
-- name: Document ranking using vector-space models and language models
-  gh_user: Arushi04
-  repo: Information-Retrieval
-  img: https://cdn0.iconfinder.com/data/icons/education-blue-shine-style/128/education-fill_-_Blue_Glitter-30-512.png
-  desc: This project focuses on documents and query matching using vector space models, language models and machine learning models. Stores the document on elastic search and retrieves only the topmost ranking documents based on the query. I have also written the script to evaluate the performace for document retrieval for each query.
-
-- name: Name Classification using character level LSTM model
-  gh_user: Arushi04
-  repo: character-level-RNN
-  img: https://www.wolfram.com/language/11/multilingual-functionality/assets.en/word-cloud-of-most-common-letters-by-script/smallthumb_12.png
-  desc: The project trains a LSTM and GRU model to classify names based on the country.
+  desc: This project explores image classification using PyTorch on the CIFAR10 dataset. The model has been trained using Convolutional Neural Network.
 
 - name: Terraform Automation Scripts for AWS
   gh_user: Arushi04
   repo: Devops_Terraform
   img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: Some scripts that I used with AWS infrastructure Automation. Running the scripts will bring up AWS services with the given configuration.
+  desc: Terraform scripts to automate AWS infrastructure. Running the scripts will bring up AWS services with the given configuration.
 
 - name: Spam Classification of Emails
   gh_user: Arushi04
